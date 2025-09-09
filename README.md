@@ -43,8 +43,6 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 # Install dependencies
 pip install -r requirements.txt
 
-## Usage 
-
 # Run pipeline on RTSP stream
 python src/pipeline.py --rtsp_url "rtsp://your_camera_url" --weights models/yolov8m.pt
 
